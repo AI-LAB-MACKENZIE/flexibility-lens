@@ -1,6 +1,6 @@
 # Flexibility Lens
 
-**Use it:** https://ai-lab-mackenzie.github.io/flexibility-lens/
+**Use it:** https://ai-lab-mackenzie.github.io/flexibility-lens/ · [em português](https://ai-lab-mackenzie.github.io/flexibility-lens/?lang=pt)
 
 A short, interactive diagnostic for project managers and project team members. Through a few pairwise trade-offs, it estimates how much weight you give to each of the four dimensions of cognitive flexibility and shows which of seven preference profiles your view is closest to. It also shows what your view tends to overlook and which profile complements it. In the team view, members paste their result codes to see which views of flexibility the team holds.
 
@@ -21,6 +21,8 @@ The app is based on Article 3 of Lidiane da Silva Souza's doctoral thesis, *The 
 3. **Profile.** The nearest profile is found by Manhattan distance to the profile averages in Table 4.6 of the article, the same distance the study's cluster analysis used. Each table row gives three of the four weights; the fourth is what remains to reach 100%.
 4. **Self-check (optional).** Four first-person items compare what you value with how you see yourself. They give no overall score, because the study recommends looking at flexibility dimension by dimension.
 
+The app is in English and Portuguese. It picks the language from a `?lang=pt` or `?lang=en` link, then the visitor's last choice, then the browser language, and has a PT/EN switch in the header. The Portuguese texts use the wording of the instrument applied in the study (Quadro 4.3 of the thesis) and the profile names of the Portuguese version of the thesis.
+
 Everything runs in the browser. No answers are sent anywhere; only the user's own browser keeps the last result.
 
 ## Disclaimer
@@ -35,7 +37,7 @@ It is a static site with no build step:
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. The site has two pages: the app (`index.html`, `app.js`, `app.css`) and the About page (`about/index.html`).
+Then open http://localhost:8000. The site has the app (`index.html`, `app.js`, `app.css`) and the About page in English (`about/index.html`) and Portuguese (`sobre/index.html`). All app texts are in the `TX` dictionary at the top of `app.js`.
 
 ## How to cite
 

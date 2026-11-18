@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flexibility Lens</title>
-<meta name="description" content="Which view of cognitive flexibility do you hold? A short diagnostic for project managers and team members, based on a study with 210 professionals.">
+<meta name="description" content="Which view of cognitive flexibility do you hold? A short diagnostic for project managers and team members, based on a study with 210 professionals. Em português e inglês.">
 <meta name="author" content="Fellipe Silva Martins and Lidiane da Silva Souza">
 <meta name="theme-color" content="#EA0029">
 <meta property="og:type" content="website">
@@ -19,9 +19,10 @@
 <header class="top">
   <a href="./" class="wordmark" aria-label="Flexibility Lens, home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 7H25V25H7Z" fill="none" stroke="#C9C6C1" stroke-width="2"/><path d="M25 7V25" stroke="#EA0029" stroke-width="4"/><rect x="3" y="3" width="8" height="8" fill="#1E1E1E"/><rect x="21" y="3" width="8" height="8" fill="#1E1E1E"/><rect x="21" y="21" width="8" height="8" fill="#1E1E1E"/><rect x="3" y="21" width="8" height="8" fill="#1E1E1E"/></svg><span>Flexibility <strong>Lens</strong></span></a>
   <nav class="tabs" aria-label="Sections">
-    <button id="tab-me" aria-selected="true">Diagnostic</button>
-    <button id="tab-team" aria-selected="false">Team view</button>
-    <a href="about/">About</a>
+    <button id="tab-me" aria-selected="true" data-t="navMe">Diagnostic</button>
+    <button id="tab-team" aria-selected="false" data-t="navTeam">Team view</button>
+    <a href="about/" data-about data-t="navAbout">About</a>
+    <span class="lang" role="group" aria-label="Language / Idioma"><button data-lang="pt" aria-pressed="false">PT</button><button data-lang="en" aria-pressed="true">EN</button></span>
   </nav>
 </header>
 
@@ -34,16 +35,16 @@
   <div class="foot-grid">
     <div>
       <a href="./" class="wordmark" aria-label="Flexibility Lens, home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 7H25V25H7Z" fill="none" stroke="#5F5F5F" stroke-width="2"/><path d="M25 7V25" stroke="#EA0029" stroke-width="4"/><rect x="3" y="3" width="8" height="8" fill="#FFFFFF"/><rect x="21" y="3" width="8" height="8" fill="#FFFFFF"/><rect x="21" y="21" width="8" height="8" fill="#FFFFFF"/><rect x="3" y="21" width="8" height="8" fill="#FFFFFF"/></svg><span>Flexibility <strong>Lens</strong></span></a>
-      <p>A diagnostic of how people in project teams see cognitive flexibility.<br>By <strong>Fellipe Silva Martins</strong> and <strong>Lidiane da Silva Souza</strong>.</p>
-      <div class="links"><a class="u" href="about/">About this project</a><a class="u" href="https://github.com/AI-LAB-MACKENZIE/flexibility-lens">Source code</a></div>
+      <p data-t="footLine">A diagnostic of how people in project teams see cognitive flexibility.<br>By <strong>Fellipe Silva Martins</strong> and <strong>Lidiane da Silva Souza</strong>.</p>
+      <div class="links"><a class="u" href="about/" data-about data-t="footAbout">About this project</a><a class="u" href="https://github.com/AI-LAB-MACKENZIE/flexibility-lens" data-t="footCode">Source code</a></div>
     </div>
     <div>
-      <h5>Disclaimer</h5>
-      <p>This tool is for reflection and learning only. Its results are not a psychological or professional assessment, are not legally binding, and must not be used for hiring, promotion, dismissal, performance appraisal or any other employment decision. The authors and developers accept no responsibility for the results, their interpretation or any use made of them.</p>
-      <p>Your answers stay in your browser and are not sent anywhere.</p>
+      <h5 data-t="footDiscH">Disclaimer</h5>
+      <p data-t="footDisc">This tool is for reflection and learning only. Its results are not a psychological or professional assessment, are not legally binding, and must not be used for hiring, promotion, dismissal, performance appraisal or any other employment decision. The authors and developers accept no responsibility for the results, their interpretation or any use made of them.</p>
+      <p data-t="footPriv">Your answers stay in your browser and are not sent anywhere.</p>
     </div>
   </div>
-  <div class="foot-bottom"><span>© 2026 Fellipe Silva Martins and Lidiane da Silva Souza · MIT License</span><span><a href="about/">About this project</a></span></div>
+  <div class="foot-bottom"><span>© 2026 Fellipe Silva Martins and Lidiane da Silva Souza · MIT License</span><span><a href="about/" data-about data-t="footAbout">About this project</a></span></div>
 </footer>
 <script src="app.js"></script>
 </body>

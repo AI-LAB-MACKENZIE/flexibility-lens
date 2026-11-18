@@ -233,3 +233,11 @@ footer .links { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 18px; fon
 }
 @media (max-width: 460px) { header.top .wordmark span { display: none; } nav.tabs { gap: 14px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- Language switch ---------- */
+nav.tabs .lang { display: inline-flex; align-items: stretch; border: 1px solid var(--line); margin-left: 4px; }
+nav.tabs .lang button, nav.tabs .lang a, nav.tabs .lang span.on { font: 500 11px/1 var(--sans); letter-spacing: .12em; padding: 7px 10px; border: 0; background: #fff; color: var(--ink-soft); cursor: pointer; }
+nav.tabs .lang > * + * { border-left: 1px solid var(--line); }
+nav.tabs .lang button:hover, nav.tabs .lang a:hover { color: var(--red); }
+nav.tabs .lang button[aria-pressed="true"], nav.tabs .lang span.on { background: var(--red); color: #fff; cursor: default; }
+@media (max-width: 640px) { nav.tabs { gap: 12px; } nav.tabs button, nav.tabs > a { font-size: 11px; letter-spacing: .1em; } }
