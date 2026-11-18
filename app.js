@@ -1,4 +1,4 @@
-/* Flexibility Lens · Fellipe Silva Martins · Laboratório de IA + Estratégia (Mackenzie)
+/* Flexibility Lens · Fellipe Silva Martins
    Data: Souza & Martins, Article 3 of L. Souza's doctoral thesis (N = 210, PAPRIKA / 1000minds). */
 (function () {
 "use strict";
@@ -197,24 +197,28 @@ function square(opts = {}) {
 }
 
 /* ---------- Views ---------- */
-const VME = $("#view-me"), VTEAM = $("#view-team"), HERO = $("#hero");
+const VME = $("#view-me"), VTEAM = $("#view-team");
 const callout = (title, body) => `<div class="callout"><h4>${title}</h4><p>${body}</p></div>`;
 const DISCLAIMER = callout("Not legally binding", "This is a reflection tool, not a test. The diagnostic is not legally binding and must not be used for hiring, promotion, appraisal or any other employment decision. The authors and developers accept no responsibility for the results or how they are used.");
 
 function renderIntro() {
   VME.innerHTML = `
-  <section class="sec"><div class="wrap narrow stack">
-    <p class="eyebrow">The study</p>
-    <h2 class="big">Seven ways to see <strong>flexibility</strong></h2>
-    <p class="lead">People who work in project teams judge flexibility by different criteria. A study with 210 professionals found seven preference profiles, each giving priority to a different pair of four dimensions. In about three minutes you can see which profile your view is closest to, what it tends to overlook, and who on a team would complement it.</p>
-    <div class="fit">${ORDER.map(d => `<div><span class="n">${DIMS[d].n} · ${DIMS[d].q}</span><h3>${DIMS[d].name}</h3><p>${DIMS[d].short}</p></div>`).join("")}</div>
+  <section class="opening"><div class="wrap narrow opening-grid">
+    <div>
+      <p class="eyebrow">Cognitive flexibility · Project teams</p>
+      <h1>Flexibility <strong>Lens</strong></h1>
+      <p class="lead">What makes someone flexible, in your eyes? People in project teams judge it by different criteria. Answer a few trade-offs, about three minutes, and see which of seven views of flexibility yours is closest to, what it tends to overlook, and who would complement it.</p>
+      <div class="actions"><a class="btn-red" href="#begin" id="go">Start the diagnostic</a><button class="btn-text" id="sample">See a sample diagnostic</button></div>
+      <p class="about-line">Based on a study with 210 project professionals. <a href="about/">About this project →</a></p>
+    </div>
+    <div class="diagram">${square({ shares: true })}
+      <p class="caption">The seven profiles found in the study. Each line links the two dimensions a profile values most; the percentage is its share of the participants. Lines that share no corner are opposite views.</p></div>
   </div></section>
   <section class="sec tint"><div class="wrap narrow stack">
-    <p class="sec-title">The seven profiles</p>
-    <div class="diagram" style="background:#fff">${square({ shares: true })}
-      <p class="caption">Each line links the two dimensions a profile values most; the percentage is its share of the 210 participants. Lines that share no corner are opposite views.</p></div>
+    <p class="sec-title">Four dimensions of flexibility</p>
+    <div class="fit">${ORDER.map(d => `<div style="background:#fff"><span class="n">${DIMS[d].n} · ${DIMS[d].q}</span><h3>${DIMS[d].name}</h3><p>${DIMS[d].short}</p></div>`).join("")}</div>
   </div></section>
-  <section class="sec"><div class="wrap narrow stack">
+  <section class="sec" id="begin" style="scroll-margin-top:70px"><div class="wrap narrow stack">
     <p class="sec-title">Before you start</p>
     <span class="label">I'm answering as</span>
     <div class="role" role="radiogroup">
@@ -223,9 +227,10 @@ function renderIntro() {
     </div>
     <p class="soft">You will see two people at a time. They differ on two traits only; everything else about them is the same. Pick the one who is more flexible in the way they think, or say they are equal. There are no right answers.</p>
     ${DISCLAIMER}
-    <div class="actions"><button class="btn-red" id="start">Start the trade-offs</button><button class="btn-text" id="sample">See a sample diagnostic</button></div>
+    <div class="actions"><button class="btn-red" id="start">Start the trade-offs</button></div>
   </div></section>`;
   VME.querySelectorAll("input[name=role]").forEach(r => r.addEventListener("change", e => { role = e.target.value; store.set("role", role); }));
+  $("#go").onclick = e => { e.preventDefault(); $("#begin").scrollIntoView({ behavior: "smooth" }); };
   $("#start").onclick = () => { newRun(); mode = "quiz"; render(true); };
   $("#sample").onclick = () => { showSample(); render(true); };
 }
@@ -435,14 +440,13 @@ function showSample() { result = { w: { AA: 18, PA: 31, CS: 34, AD: 17 }, consis
 
 /* ---------- Routing ---------- */
 function render(scroll) {
-  HERO.hidden = mode !== "intro";
   if (mode === "intro") renderIntro(); else if (mode === "quiz") renderQuiz(); else if (mode === "self") renderSelf(); else renderResult();
   if (scroll) window.scrollTo({ top: 0 });
 }
 function showTab(t) {
   $("#tab-me").setAttribute("aria-selected", t === "me"); $("#tab-team").setAttribute("aria-selected", t === "team");
   VME.hidden = t !== "me"; VTEAM.hidden = t !== "team";
-  if (t === "team") { HERO.hidden = true; renderTeam(); } else render();
+  if (t === "team") renderTeam(); else render();
   window.scrollTo({ top: 0 });
 }
 $("#tab-me").onclick = () => showTab("me"); $("#tab-team").onclick = () => showTab("team");
@@ -452,5 +456,5 @@ document.addEventListener("keydown", e => {
   if (k === "a" && $("#pick-A")) $("#pick-A").click(); else if (k === "b" && $("#pick-B")) $("#pick-B").click(); else if (k === "e" && $("#eq")) $("#eq").click();
 });
 if (location.hash === "#sample") showSample();
-render();
+if (location.hash === "#team") showTab("team"); else render();
 })();

@@ -4,11 +4,11 @@
 
 A short, interactive diagnostic for project managers and project team members. Through a few pairwise trade-offs, it estimates how much weight you give to each of the four dimensions of cognitive flexibility and shows which of seven preference profiles your view is closest to. It also shows what your view tends to overlook and which profile complements it. In the team view, members paste their result codes to see which views of flexibility the team holds.
 
-Developed by **Fellipe Silva Martins** at the [Laboratório de IA + Estratégia](https://ai-lab-mackenzie.github.io/), Escola de Negócios Mackenzie, Universidade Presbiteriana Mackenzie.
+By **Fellipe Silva Martins**.
 
 ## The research behind it
 
-The app is based on Article 3 of Lidiane Souza's doctoral thesis, *The hierarchy of the dimensions of cognitive flexibility: importance assigned by project team professionals* (Souza & Martins, article in progress).
+The app is based on Article 3 of Lidiane da Silva Souza's doctoral thesis, *The hierarchy of the dimensions of cognitive flexibility: importance assigned by project team professionals* (Souza & Martins, article in progress).
 
 - **Four dimensions** (from the thesis's Article 2): Awareness of Alternatives (*what*), Processing Agility (*how*), Context Sensitivity (*where and when*) and Agentic Disposition (*who*).
 - **Study:** 210 professionals who work in project teams weighted the dimensions with the PAPRIKA pairwise method (1000minds), from June to September 2026.
@@ -35,7 +35,7 @@ It is a static site with no build step:
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. The design follows the Laboratório de IA + Estratégia website (Manual de Identidade Visual Mackenzie: red `#EA0029`, Roboto, the official "M" symbol).
+Then open http://localhost:8000. The site has two pages: the app (`index.html`, `app.js`, `app.css`) and the About page (`about/index.html`).
 
 ## How to cite
 
@@ -43,4 +43,8 @@ Martins, F. S. (2026). *Flexibility Lens: a diagnostic of views of cognitive fle
 
 ## License
 
-Code released under the MIT License (see `LICENSE`). The Mackenzie symbol and the campus photograph belong to Universidade Presbiteriana Mackenzie and are not covered by that license.
+Released under the MIT License (see `LICENSE`).
+
+## About
+
+Flexibility Lens was developed by Fellipe Silva Martins at the [Laboratório de IA + Estratégia](https://ai-lab-mackenzie.github.io/), Escola de Negócios, Universidade Presbiteriana Mackenzie. The research it rests on is the doctoral thesis of Lidiane da Silva Souza in the university's Graduate Program in Business Administration (PPGA). More on the app's [About page](https://ai-lab-mackenzie.github.io/flexibility-lens/about/).
