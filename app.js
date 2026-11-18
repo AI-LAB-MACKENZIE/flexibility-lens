@@ -163,6 +163,28 @@ en: {
     axesTitle: "Axes of opposition", axesLead: "Opposite profiles judge flexibility by different criteria. Having both poles covers more of the system, but calls for a shared vocabulary.",
     nobody: "Nobody", bothPoles: "Both poles present", oneSided: "One-sided",
     members: "Members", name: "Name", profile: "Profile", teamMean: "Team mean",
+    howEyebrow: "How to use it", howTitle: "On your own, or <strong>with your team</strong>",
+    howLead: "Flexibility Lens works in two ways. On your own, it shows how you see flexibility. With a team, each person takes it separately and you then put the results side by side to see where your views meet and where they differ.",
+    howToTeam: "How to use it on your own or with a team →",
+    soloTitle: "On your own", soloTime: "About 5 minutes",
+    soloSteps: [
+      ["Choose your role", "Say whether you are a team member or a project manager or leader. The advice in your diagnostic changes with it."],
+      ["Make the trade-offs", "You will see 7 to 13 pairs of hypothetical people. Pick the one who is more flexible in the way they think, or say they are equal. There are no right answers."],
+      ["Do the self-check (optional)", "Four short items on how you usually act. They let the diagnostic compare what you value with how you see yourself."],
+      ["Read your diagnostic", "Your nearest profile, how you weigh the four dimensions compared with the 210 professionals in the study, what your view tends to overlook, and practical tips. Your browser keeps the result, so you can come back to it."]],
+    teamTitle2: "With your team", teamTime: "About 30 to 45 minutes, with one person facilitating",
+    teamSteps: [
+      ["Share the link", "The facilitator sends the link to everyone. Each person takes the diagnostic on their own, before the meeting or in its first ten minutes, without discussing the answers."],
+      ["Collect the codes", "At the end of the diagnostic, each person copies their result code (for example, CF-18-31-34-17) and sends it to the facilitator by chat or e-mail, with their name or a nickname. The code holds only four numbers."],
+      ["Build the team map", "The facilitator opens the Team view and pastes the codes, one per line. The map shows which profiles are in the team, which dimensions are covered and on which axes the team has both sides."],
+      ["Discuss together", "Show the map to everyone and use the questions below. The aim is a shared language for flexibility, not a ranking of people."]],
+    promptsTitle: "Questions to discuss",
+    prompts: [
+      "What does each of us mean when we call someone flexible? Where do our definitions differ?",
+      "Which dimension does nobody prioritize? When did the team miss it in a past project?",
+      "Who sits on opposite sides of an axis? Do our disagreements about changing course follow that line?",
+      "What will we watch for, and who will act, the next time the project has to change direction?"],
+    dataNote: "<strong>About the data.</strong> Nothing is uploaded: answers stay in each person's browser, and codes travel only the way you choose to send them. Use nicknames if the team prefers. The map is for conversation, not for evaluating anyone.",
     shortNames: { AA: "Awareness", PA: "Agility", CS: "Context", AD: "Disposition" },
     teamDiscH: "A conversation starter",
     teamDisc: "That teams mixing opposite profiles adapt better is a hypothesis from the study, not a tested finding. Do not use this map to select, rank or exclude people. It is not legally binding, and the authors and developers accept no responsibility for its use."
@@ -308,6 +330,28 @@ pt: {
     axesTitle: "Eixos de oposição", axesLead: "Perfis opostos julgam a flexibilidade por critérios diferentes. Ter os dois polos cobre mais do sistema, mas pede um vocabulário comum.",
     nobody: "Ninguém", bothPoles: "Os dois polos presentes", oneSided: "Só um polo",
     members: "Membros", name: "Nome", profile: "Perfil", teamMean: "Média da equipe",
+    howEyebrow: "Como usar", howTitle: "Sozinho ou <strong>com a sua equipe</strong>",
+    howLead: "O Flexibility Lens funciona de dois jeitos. Sozinho, ele mostra como você enxerga a flexibilidade. Em equipe, cada pessoa faz o diagnóstico separadamente e depois vocês põem os resultados lado a lado para ver onde as visões se encontram e onde diferem.",
+    howToTeam: "Como usar sozinho ou com a equipe →",
+    soloTitle: "Sozinho", soloTime: "Cerca de 5 minutos",
+    soloSteps: [
+      ["Escolha o seu papel", "Diga se você é membro de equipe ou gestor ou líder de projeto. As sugestões do diagnóstico mudam conforme o papel."],
+      ["Faça as escolhas", "Você verá de 7 a 13 pares de pessoas hipotéticas. Escolha a que tem mais flexibilidade na forma de pensar, ou diga que são iguais. Não há respostas certas."],
+      ["Faça a autoavaliação (opcional)", "Quatro itens curtos sobre como você costuma agir. Com eles, o diagnóstico compara o que você valoriza com como você se vê."],
+      ["Leia o seu diagnóstico", "O perfil mais próximo, quanto você pesa cada dimensão em comparação com os 210 profissionais do estudo, o que o seu olhar tende a deixar de lado e sugestões práticas. O navegador guarda o resultado, para você voltar a ele."]],
+    teamTitle2: "Com a sua equipe", teamTime: "Cerca de 30 a 45 minutos, com uma pessoa facilitando",
+    teamSteps: [
+      ["Compartilhe o link", "O facilitador envia o link para todos. Cada pessoa faz o diagnóstico sozinha, antes da reunião ou nos primeiros dez minutos, sem discutir as respostas."],
+      ["Reúna os códigos", "No fim do diagnóstico, cada pessoa copia o seu código de resultado (por exemplo, CF-18-31-34-17) e o envia ao facilitador por chat ou e-mail, com o nome ou um apelido. O código guarda apenas quatro números."],
+      ["Monte o mapa da equipe", "O facilitador abre a aba Equipe e cola os códigos, um por linha. O mapa mostra quais perfis estão na equipe, quais dimensões estão cobertas e em quais eixos o time tem os dois lados."],
+      ["Conversem juntos", "Mostre o mapa para todos e use as perguntas abaixo. O objetivo é criar uma linguagem comum sobre flexibilidade, e não classificar pessoas."]],
+    promptsTitle: "Perguntas para a conversa",
+    prompts: [
+      "O que cada um de nós quer dizer quando chama alguém de flexível? Onde as nossas definições diferem?",
+      "Qual dimensão ninguém prioriza? Em que projeto passado a equipe sentiu falta dela?",
+      "Quem está em lados opostos de um eixo? As nossas divergências sobre mudar de rumo seguem essa linha?",
+      "Na próxima vez que o projeto precisar mudar de direção, o que vamos observar, e quem vai agir?"],
+    dataNote: "<strong>Sobre os dados.</strong> Nada é enviado: as respostas ficam no navegador de cada pessoa, e os códigos só circulam pelo meio que vocês escolherem. Usem apelidos, se a equipe preferir. O mapa serve para conversar, não para avaliar ninguém.",
     shortNames: { AA: "Consciência", PA: "Agilidade", CS: "Contexto", AD: "Disposição" },
     teamDiscH: "Um ponto de partida para a conversa",
     teamDisc: "Que equipes com perfis opostos se adaptam melhor é uma hipótese do estudo, não um resultado testado. Não use este mapa para selecionar, classificar ou excluir pessoas. Ele não tem valor legal, e os autores e desenvolvedores não se responsabilizam pelo seu uso."
@@ -451,6 +495,24 @@ function square(opts = {}) {
 }
 
 /* ---------- Views ---------- */
+const stepsHTML = arr => `<ol class="steps">${arr.map(([b, t]) => `<li><b>${b}</b><p>${t}</p></li>`).join("")}</ol>`;
+const promptsHTML = () => `<div class="block"><p class="sec-title">${U().promptsTitle}</p><ul class="dash-list">${U().prompts.map(q => `<li>${q}</li>`).join("")}</ul></div>`;
+function howHTML() {
+  const u = U();
+  return `<section class="sec" id="how" style="scroll-margin-top:70px"><div class="wrap narrow stack">
+    <p class="eyebrow">${u.howEyebrow}</p>
+    <h2 class="big">${u.howTitle}</h2>
+    <p class="lead">${u.howLead}</p>
+    <div class="howto">
+      <div><h3>${u.soloTitle}</h3><p class="time">${u.soloTime}</p>${stepsHTML(u.soloSteps)}</div>
+      <div><h3>${u.teamTitle2}</h3><p class="time">${u.teamTime}</p>${stepsHTML(u.teamSteps)}</div>
+    </div>
+    <div class="howto-foot">
+      ${promptsHTML()}
+      <div class="data-note"><p>${u.dataNote}</p></div>
+    </div>
+  </div></section>`;
+}
 const VME = $("#view-me"), VTEAM = $("#view-team");
 const callout = (title, body) => `<div class="callout"><h4>${title}</h4><p>${body}</p></div>`;
 
@@ -463,7 +525,7 @@ function renderIntro() {
       <h1>Flexibility <strong>Lens</strong></h1>
       <p class="lead">${u.lead}</p>
       <div class="actions"><a class="btn-red" href="#begin" id="go">${u.go}</a><button class="btn-text" id="sample">${u.sample}</button></div>
-      <p class="about-line">${u.aboutLine} <a href="${u.aboutHref}">${u.aboutLink}</a></p>
+      <p class="about-line"><a href="#how" id="howlink">${u.howToTeam}</a><br>${u.aboutLine} <a href="${u.aboutHref}">${u.aboutLink}</a></p>
     </div>
     <div class="diagram">${square({ shares: true })}<p class="caption">${u.squareCap}</p></div>
   </div></section>
@@ -471,7 +533,8 @@ function renderIntro() {
     <p class="sec-title">${u.fourDims}</p>
     <div class="fit">${ORDER.map(d => `<div style="background:#fff"><span class="n">${DIM_N[d]} · ${esc(D(d).q)}</span><h3>${esc(D(d).name)}</h3><p>${esc(D(d).short)}</p></div>`).join("")}</div>
   </div></section>
-  <section class="sec" id="begin" style="scroll-margin-top:70px"><div class="wrap narrow stack">
+  ${howHTML()}
+  <section class="sec tint" id="begin" style="scroll-margin-top:70px"><div class="wrap narrow stack">
     <p class="sec-title">${u.before}</p>
     <span class="label">${u.answeringAs}</span>
     <div class="role" role="radiogroup">
@@ -484,6 +547,7 @@ function renderIntro() {
   </div></section>`;
   VME.querySelectorAll("input[name=role]").forEach(r => r.addEventListener("change", e => { role = e.target.value; store.set("role", role); }));
   $("#go").onclick = e => { e.preventDefault(); $("#begin").scrollIntoView({ behavior: "smooth" }); };
+  $("#howlink").onclick = e => { e.preventDefault(); $("#how").scrollIntoView({ behavior: "smooth" }); };
   $("#start").onclick = () => { newRun(); mode = "quiz"; render(true); };
   $("#sample").onclick = () => { showSample(); render(true); };
 }
@@ -616,6 +680,7 @@ function renderTeam() {
     <p class="eyebrow">${u.teamEyebrow}</p>
     <h2 class="big">${u.teamTitle}</h2>
     <p class="lead">${u.teamLead}</p>
+    <details class="team-steps" ${current.trim() ? "" : "open"}><summary>${u.teamTitle2} · ${u.teamTime}</summary>${stepsHTML(u.teamSteps)}</details>
     <div class="form-box">
       <label for="teamtxt" class="label">${u.teamCodes}</label>
       <textarea id="teamtxt" placeholder="Ana: CF-18-31-34-17&#10;Bruno: CF-30-19-17-34">${esc(current)}</textarea>
@@ -670,6 +735,7 @@ function analyse() {
       <tr class="total"><td>${u.teamMean}</td><td></td>${ORDER.map(d => `<td class="num">${Math.round(mean[d])}%</td>`).join("")}</tr></tbody></table></div>
       ${badNote}
     </div>
+    ${promptsHTML()}
     <div class="block">${callout(u.teamDiscH, u.teamDisc)}</div>
   </div></section>`;
 }
