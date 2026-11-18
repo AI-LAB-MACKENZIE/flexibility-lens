@@ -1,5 +1,5 @@
-/* Flexibility Lens · Fellipe Silva Martins
-   Data: Souza & Martins, Article 3 of L. Souza's doctoral thesis (N = 210, PAPRIKA / 1000minds). */
+/* Flexibility Lens · Fellipe Silva Martins and Lidiane da Silva Souza
+   Data: Souza & Martins, Article 3 of L. S. Souza's doctoral thesis (N = 210, PAPRIKA / 1000minds). */
 (function () {
 "use strict";
 

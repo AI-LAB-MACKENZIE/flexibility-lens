@@ -6,6 +6,9 @@ authors:
   - family-names: Martins
     given-names: Fellipe Silva
     affiliation: "Universidade Presbiteriana Mackenzie, Laboratório de IA + Estratégia"
+  - family-names: Souza
+    given-names: Lidiane da Silva
+    affiliation: "Universidade Presbiteriana Mackenzie"
 repository-code: "https://github.com/AI-LAB-MACKENZIE/flexibility-lens"
 url: "https://ai-lab-mackenzie.github.io/flexibility-lens/"
 license: MIT
@@ -20,7 +23,7 @@ references:
     title: "The hierarchy of the dimensions of cognitive flexibility: importance assigned by project team professionals (Article 3)"
     authors:
       - family-names: Souza
-        given-names: Lidiane
+        given-names: Lidiane da Silva
       - family-names: Martins
         given-names: Fellipe Silva
     year: 2026

@@ -4,7 +4,7 @@
 
 A short, interactive diagnostic for project managers and project team members. Through a few pairwise trade-offs, it estimates how much weight you give to each of the four dimensions of cognitive flexibility and shows which of seven preference profiles your view is closest to. It also shows what your view tends to overlook and which profile complements it. In the team view, members paste their result codes to see which views of flexibility the team holds.
 
-By **Fellipe Silva Martins**.
+By **Fellipe Silva Martins** and **Lidiane da Silva Souza**.
 
 ## The research behind it
 
@@ -39,7 +39,7 @@ Then open http://localhost:8000. The site has two pages: the app (`index.html`, 
 
 ## How to cite
 
-Martins, F. S. (2026). *Flexibility Lens: a diagnostic of views of cognitive flexibility in project teams* [Software]. Laboratório de IA + Estratégia, Universidade Presbiteriana Mackenzie. https://github.com/AI-LAB-MACKENZIE/flexibility-lens
+Martins, F. S., & Souza, L. S. (2026). *Flexibility Lens: a diagnostic of views of cognitive flexibility in project teams* [Software]. Laboratório de IA + Estratégia, Universidade Presbiteriana Mackenzie. https://github.com/AI-LAB-MACKENZIE/flexibility-lens
 
 ## License
 
@@ -47,4 +47,4 @@ Released under the MIT License (see `LICENSE`).
 
 ## About
 
-Flexibility Lens was developed by Fellipe Silva Martins at the [Laboratório de IA + Estratégia](https://ai-lab-mackenzie.github.io/), Escola de Negócios, Universidade Presbiteriana Mackenzie. The research it rests on is the doctoral thesis of Lidiane da Silva Souza in the university's Graduate Program in Business Administration (PPGA). More on the app's [About page](https://ai-lab-mackenzie.github.io/flexibility-lens/about/).
+Flexibility Lens is by Fellipe Silva Martins and Lidiane da Silva Souza, developed at the [Laboratório de IA + Estratégia](https://ai-lab-mackenzie.github.io/), Escola de Negócios, Universidade Presbiteriana Mackenzie. The research it rests on is the doctoral thesis of Lidiane da Silva Souza in the university's Graduate Program in Business Administration (PPGA). More on the app's [About page](https://ai-lab-mackenzie.github.io/flexibility-lens/about/).
