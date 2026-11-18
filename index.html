@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flexibility Lens · Laboratório de IA + Estratégia</title>
+<meta name="description" content="A short diagnostic of how you see cognitive flexibility in project teams, based on a study with 210 professionals. Laboratório de IA + Estratégia, Universidade Presbiteriana Mackenzie.">
+<meta name="author" content="Fellipe Silva Martins">
+<meta name="theme-color" content="#EA0029">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Flexibility Lens">
+<meta property="og:description" content="Which view of cognitive flexibility do you hold? A diagnostic for project managers and team members.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <a href="https://ai-lab-mackenzie.github.io/" class="sig" aria-label="Laboratório de IA + Estratégia, Mackenzie"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.70 45.81" fill="currentColor"><path fill-rule="nonzero" d="M22.15 32.39C22.21 32.50 22.38 32.62 22.52 32.62L22.75 32.62L23.29 32.62L23.52 32.62C23.66 32.62 23.83 32.50 23.89 32.39L27.95 22.04C28.21 21.50 28.41 21.53 28.41 22.13L28.41 28.47C28.41 29.09 28.07 29.58 27.67 29.58C27.27 29.58 26.96 30.06 26.96 30.69L26.96 33.30L33.87 33.30L33.87 31.43L33.89 30.69C33.89 30.06 33.56 29.58 33.16 29.58C32.82 29.58 32.56 29.26 32.45 28.84L32.45 18.29C32.45 17.69 32.73 17.21 33.16 17.21C33.56 17.21 33.89 16.70 33.89 16.10L33.89 13.20L27.61 13.20L22.92 24.46L18.23 13.20L11.89 13.20L11.89 16.10C11.89 16.70 12.20 17.21 12.60 17.21C13.03 17.21 13.34 17.69 13.34 18.29L13.34 28.47C13.34 29.09 13.03 29.58 12.60 29.58C12.20 29.58 11.89 30.06 11.89 30.69L11.86 33.30L18.80 33.30L18.80 30.69C18.80 30.06 18.49 29.58 18.09 29.58C17.69 29.58 17.35 29.09 17.35 28.47L17.35 22.13C17.35 21.53 17.55 21.50 17.80 22.04L22.15 32.39"/><path fill-rule="nonzero" d="M22.98 4.90C12.97 4.90 4.78 13.06 4.78 23.09C4.78 33.10 12.97 41.29 22.98 41.29C33.01 41.29 41.18 33.10 41.18 23.09C41.18 13.06 33.01 4.90 22.98 4.90M22.98 0.38C35.49 0.38 45.70 10.58 45.70 23.09C45.70 35.61 35.49 45.81 22.98 45.81C10.47 45.81 0.26 35.61 0.26 23.09C0.26 10.58 10.47 0.38 22.98 0.38"/></svg><span class="t"><small>Laboratório de</small><b>IA + Estratégia</b></span></a>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button id="tab-me" role="tab" aria-selected="true">Diagnostic</button>
+    <button id="tab-team" role="tab" aria-selected="false">Team view</button>
+  </nav>
+</header>
+
+<section class="page-hero on-photo" id="hero">
+  <img src="assets/campus.jpg" alt="Historic building on the Higienópolis campus of Universidade Presbiteriana Mackenzie">
+  <div class="wrap narrow">
+    <p class="eyebrow">Cognitive flexibility · Project teams</p>
+    <h1>Flexibility <strong>Lens</strong></h1>
+    <p class="lead">What makes someone flexible, in your eyes? Answer a few trade-offs and see which of seven views of flexibility yours is closest to.</p>
+  </div>
+</section>
+
+<main>
+  <div id="view-me"></div>
+  <div id="view-team" hidden></div>
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <div>
+      <a class="sig" href="https://ai-lab-mackenzie.github.io/" aria-label="Laboratório de IA + Estratégia"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.70 45.81" fill="currentColor"><path fill-rule="nonzero" d="M22.15 32.39C22.21 32.50 22.38 32.62 22.52 32.62L22.75 32.62L23.29 32.62L23.52 32.62C23.66 32.62 23.83 32.50 23.89 32.39L27.95 22.04C28.21 21.50 28.41 21.53 28.41 22.13L28.41 28.47C28.41 29.09 28.07 29.58 27.67 29.58C27.27 29.58 26.96 30.06 26.96 30.69L26.96 33.30L33.87 33.30L33.87 31.43L33.89 30.69C33.89 30.06 33.56 29.58 33.16 29.58C32.82 29.58 32.56 29.26 32.45 28.84L32.45 18.29C32.45 17.69 32.73 17.21 33.16 17.21C33.56 17.21 33.89 16.70 33.89 16.10L33.89 13.20L27.61 13.20L22.92 24.46L18.23 13.20L11.89 13.20L11.89 16.10C11.89 16.70 12.20 17.21 12.60 17.21C13.03 17.21 13.34 17.69 13.34 18.29L13.34 28.47C13.34 29.09 13.03 29.58 12.60 29.58C12.20 29.58 11.89 30.06 11.89 30.69L11.86 33.30L18.80 33.30L18.80 30.69C18.80 30.06 18.49 29.58 18.09 29.58C17.69 29.58 17.35 29.09 17.35 28.47L17.35 22.13C17.35 21.53 17.55 21.50 17.80 22.04L22.15 32.39"/><path fill-rule="nonzero" d="M22.98 4.90C12.97 4.90 4.78 13.06 4.78 23.09C4.78 33.10 12.97 41.29 22.98 41.29C33.01 41.29 41.18 33.10 41.18 23.09C41.18 13.06 33.01 4.90 22.98 4.90M22.98 0.38C35.49 0.38 45.70 10.58 45.70 23.09C45.70 35.61 35.49 45.81 22.98 45.81C10.47 45.81 0.26 35.61 0.26 23.09C0.26 10.58 10.47 0.38 22.98 0.38"/></svg><span class="t"><small>Laboratório de</small><b>IA + Estratégia</b></span></a>
+      <p><strong>Flexibility Lens</strong><br>Developed by Fellipe Silva Martins<br>Laboratório de IA + Estratégia · Escola de Negócios Mackenzie<br>Universidade Presbiteriana Mackenzie</p>
+      <p><a class="u" href="https://github.com/AI-LAB-MACKENZIE/flexibility-lens">Source code on GitHub</a></p>
+    </div>
+    <div>
+      <h5>Disclaimer</h5>
+      <p class="legal">This tool is for reflection and learning only. Its results and diagnostics are not a psychological or professional assessment, are not legally binding, and must not be used for hiring, promotion, dismissal, performance appraisal or any other employment decision. The authors and developers accept no responsibility for the results, their interpretation or any use made of them.</p>
+      <h5 style="margin-top:26px">The research</h5>
+      <p>Based on Article 3 of Lidiane Souza's doctoral thesis, <i>The hierarchy of the dimensions of cognitive flexibility: importance assigned by project team professionals</i> (Souza &amp; Martins, article in progress). The study surveyed 210 professionals who work in project teams with the PAPRIKA pairwise method (1000minds). The seven profiles come from an exploratory cluster analysis of modest quality (mean silhouette 0.256): read them as tendencies, not fixed types.</p>
+      <p>Privacy: everything runs in your browser. Your answers are not sent anywhere; only this browser keeps your last result.</p>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 Fellipe Silva Martins · Laboratório de IA + Estratégia · Universidade Presbiteriana Mackenzie</span>
+    <span><a href="https://ai-lab-mackenzie.github.io/">ai-lab-mackenzie.github.io</a></span>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Flexibility Lens: a diagnostic of views of cognitive flexibility in project teams"
+type: software
+authors:
+  - family-names: Martins
+    given-names: Fellipe Silva
+    affiliation: "Universidade Presbiteriana Mackenzie, Laboratório de IA + Estratégia"
+repository-code: "https://github.com/AI-LAB-MACKENZIE/flexibility-lens"
+url: "https://ai-lab-mackenzie.github.io/flexibility-lens/"
+license: MIT
+date-released: "2026-11-18"
+keywords:
+  - cognitive flexibility
+  - project teams
+  - PAPRIKA
+  - multicriteria decision analysis
+references:
+  - type: thesis
+    title: "The hierarchy of the dimensions of cognitive flexibility: importance assigned by project team professionals (Article 3)"
+    authors:
+      - family-names: Souza
+        given-names: Lidiane
+      - family-names: Martins
+        given-names: Fellipe Silva
+    year: 2026
